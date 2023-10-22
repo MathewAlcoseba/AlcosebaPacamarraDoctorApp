@@ -25,6 +25,10 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
+    - Assets/Gilang.png    
+    - Assets/Shabil.png
+    - Assets/Musta.png
+    - Assets/Supri.png
     - Assets/menu.png
     - Assets/avatar.png
     - Assets/greenRectangle.png
@@ -49,3 +53,4 @@ flutter:
     - Assets/surgeon.png
     - Assets/skin.png
     - Assets/heart.png
+

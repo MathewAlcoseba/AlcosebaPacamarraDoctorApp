@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import 'Gilang.dart';
+import 'Shabil.dart';
+import 'Musta.dart';
+import 'Supri.dart';
 
 void main() => runApp(const FirstPage(
       title: '',
@@ -141,39 +145,81 @@ class FirstPage extends StatelessWidget {
                           fontWeight: FontWeight.bold),
                     ),
                   ),
+
                   Positioned(
                     top: 470,
                     left: 35,
-                    child: Container(
-                      child: doc1(),
+                    child: GestureDetector(
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => GilangPage()),
+                        );
+                      },
+                      child: Container(
+                        child: doc1(),
+                      ),
                     ),
                   ),
+
                   Positioned(
                     top: 580,
                     left: 35,
-                    child: Container(
-                      child: doc2(),
+                    child: GestureDetector(
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => ShabilPage()),
+                        );
+                      },
+                      child: Container(
+                        child: doc2(),
+                      ),
                     ),
                   ),
                   Positioned(
                     top: 690,
                     left: 35,
-                    child: Container(
-                      child: doc3(),
+                    child: GestureDetector(
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => MustaPage()),
+                        );
+                      },
+                      child: Container(
+                        child: doc3(),
+                      ),
                     ),
                   ),
                   Positioned(
                     top: 800,
                     left: 35,
-                    child: Container(
-                      child: doc4(),
+                    child: GestureDetector(
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => SupriPage()),
+                        );
+                      },
+                      child: Container(
+                        child: doc4(),
+                      ),
                     ),
                   ),
                   Positioned(
                     top: 910,
                     left: 35,
-                    child: Container(
-                      child: doc1(),
+                    child: GestureDetector(
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => GilangPage()),
+                        );
+                      },
+                      child: Container(
+                        child: doc1(),
+                      ),
                     ),
                   ),
                 ],
